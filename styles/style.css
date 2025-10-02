@@ -212,11 +212,25 @@ body {
 }
 
 /* FOOTER DO CADASTRO E LOGIN */
-.footerCadastroLogin {
+.footerCadastro {
     background-color: #32b9cd;
 }
 
-.footerCadastroLogin .container {
+.footerCadastro .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    padding: 24px 0;
+}
+
+.footerLogin {
+    background-color: #32b9cd;
+}
+
+.footerLogin .container {
     display: flex;
     justify-content: center;
     align-items: center;
